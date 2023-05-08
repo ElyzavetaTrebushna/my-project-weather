@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  text-align: center;
+  margin: 20px;
+}
+#search-text-input {
+  width: 68%;
+  font-size: 16px;
+  border: 2px solid blue;
+  border-radius: 7px;
+  padding: 7px;
+  margin-right: 10px;
+}
+#search-text-input:hover {
+  opacity: 0.6;
+}
+#button {
+  width: 13%;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: blue;
+  border: 2px solid blue;
+  border-radius: 7px;
+  padding: 7px;
+  color: yellow;
+  margin-right: 10px;
+}
+#button:hover {
+  opacity: 0.6;
+  color: black;
+  cursor: pointer;
+}
+#current_btn {
+  width: 13%;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: blue;
+  border: 2px solid blue;
+  border-radius: 7px;
+  padding: 7px;
+  color: yellow;
+}
+#current_btn:hover {
+  opacity: 0.6;
+  color: black;
+  cursor: pointer;
+}
+h1 {
+  color: blue;
+  font-size: 56px;
+}
+a {
+  text-decoration: none;
+  font-size: 30px;
+}
+a:hover {
+  color: yellow;
+}
+
+footer {
+  color: #000;
+  font-size: 14px;
+  text-align: center;
+  margin: 20px auto;
+}
+.container {
+  max-width: 70%;
+  margin: 25px auto;
+  border: 2px solid lightslategray;
+  border-radius: 35px;
+  box-shadow: 0 5px 7px grey;
+  background-color: lightslategray;
+}
+.content {
+  margin: 0 auto;
+  width: 90%;
+}
+.main_content {
+  display: flex;
+  margin: 30px;
+  justify-content: space-between;
+}
+.today {
+  color: yellow;
+  opacity: 0.7;
+  font-size: 24px;
+  font-weight: 400;
+}
+.today_temperature {
+  color: blue;
+  font-size: 66px;
+}
+.days {
+  display: flex;
+  text-align: center;
+  margin: 40px auto;
+  list-style-type: none;
+}
+.day {
+  width: 15%;
+  margin: 0 auto;
+  border: 2px solid yellow;
+  border-radius: 7px;
+  box-shadow: 0 3px 3px grey;
+  padding: 12px;
+  font-size: 24px;
+}
+.day:hover {
+  cursor: pointer;
+  background-color: gainsboro;
+  border: gainsboro;
+}
+.day_temperature {
+  color: yellow;
+  opacity: 0.7;
+}
+.night_temperature {
+  color: blue;
+  opacity: 0.7;
+}

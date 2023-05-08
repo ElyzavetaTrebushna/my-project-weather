@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="content">
+        <header>
+          <form id="searching-form">
+            <input
+              type="text"
+              placeholder="Enter a city.."
+              autocomplete="off"
+              autofocus="on"
+              id="search-text-input"
+            />
+            <input type="submit" value="Search" id="button" />
+            <input type="submit" value="Current" id="current_btn" />
+          </form>
+        </header>
+        <hr />
+        <div class="main_content">
+          <div>
+            <h1 id="city">Kherson</h1>
+            <h2 class="today"></h2>
+          </div>
+          <div class="today_temperature">
+            🌞<span id="temperature">19</span> <a href="#" id="celsium">°C</a>
+            <a href="#" id="farenheit">°F</a>
+          </div>
+        </div>
+        <ul class="days">
+          <li class="day">
+            Tuesday <br />
+            🌥 <br />
+            <span class="day_temperature">14°</span>
+            <span class="night_temperature">11°</span>
+          </li>
+          <li class="day">
+            Wednesday <br />
+            🌤 <br />
+            <span class="day_temperature">17°</span>
+            <span class="night_temperature">10°</span>
+          </li>
+          <li class="day">
+            Thursday <br />
+            🌥<br />
+            <span class="day_temperature">13°</span>
+            <span class="night_temperature">10°</span>
+          </li>
+          <li class="day">
+            Friday <br />
+            🌩 <br />
+            <span class="day_temperature">19°</span>
+            <span class="night_temperature">10°</span>
+          </li>
+          <li class="day">
+            Saturday <br />
+            🌤 <br />
+            <span class="day_temperature">23°</span>
+            <span class="night_temperature">10°</span>
+          </li>
+        </ul>
+        <hr />
+        <footer>
+          This project was coded by Elyzaveta Trebushna
+        </footer>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
